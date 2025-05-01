@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+header{
+    max-width: 100%;
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.9)), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.10)), url('../images/fundo.jpg');
+    filter: blur(1px) brightness(0.95);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+
+    position: relative;
+}
+.ela{
+    margin-top: 10%;
+    margin-left: -3%;
+    height: 48%;
+    transform: rotate(-6deg);
+}
+.eu{
+    margin-top: 9%;
+    max-width: 100%;
+    height: 55%;
+    margin-left: -21%;
+    transform: rotate(17deg);
+}
+h1{
+        position: absolute;
+        top: 47%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 40px;
+        z-index: 3; /* acima de tudo */
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+}
